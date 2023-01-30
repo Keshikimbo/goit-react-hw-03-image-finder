@@ -1,6 +1,6 @@
 export function fetchImages(query, page) {
   const BASE_URL = 'https://pixabay.com/api/';
-  const KEY = '14611902-cba6e6d3c19977a925f1406cc';
+  const KEY = '29186456-7097278d4e7000ffc71d3402d';
 
   return fetch(
     `${BASE_URL}?q=${query}&page=${page}&key=${KEY}&image_type=photo&orientation=horizontal&per_page=12`
@@ -14,7 +14,7 @@ export function fetchImages(query, page) {
 }
 
 // fetch(
-//   `https://pixabay.com/api/?q=${currentQuery}&page=${currentPage}&key=14611902-cba6e6d3c19977a925f1406cc&image_type=photo&orientation=horizontal&per_page=12`
+//   `https://pixabay.com/api/?q=${currentQuery}&page=${currentPage}&key=29186456-7097278d4e7000ffc71d3402d&image_type=photo&orientation=horizontal&per_page=12`
 // ).then(response => {
 //   if (response.ok) {
 //     return response.json();
